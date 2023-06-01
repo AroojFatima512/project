@@ -1,0 +1,112 @@
+.header{
+    background-color: rgb(26, 26, 127);
+ }
+ .h{
+     display: inline-block;
+     margin-left: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ #home{
+     margin-left: 900px;
+ }
+ .img1{
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     z-index: -1;
+ }
+ .text{
+     margin-top: 100px;
+     margin-left: 400px;
+     position: relative;
+     color: black;
+     font-size: 100px;
+     display: flex;
+     text-shadow: 2px 2px gray;
+ }
+ .h1{
+     margin-top: 200px;
+     margin-left: 500px;
+     position: relative;
+     color: white;
+     display: flex;
+     text-shadow:2px 2px gray;
+ }
+ .form{
+     margin-left: 100px;
+     margin-right: 100px;
+     background-color: rgb(157, 102, 157);
+     position: relative;
+ }
+ .data{
+     display: inline-block;
+ } 
+ label{
+     margin-left: 100px;
+     font-size: 20px;
+     display: inline-block;
+ }
+ input{
+     width: 200px;
+ }
+ #name{
+     margin-left: 5px;
+ }
+ #phone{
+     margin-left: 10px;
+ }
+ #b{
+     width: 140px;
+ }
+ #where{
+     margin-left:15px;
+ }
+ #arrivals{
+     margin-left: 25px;
+ }
+ #a{
+     width: 105px;
+ }
+ .container {
+     margin-top:100px;
+     overflow-x: scroll;
+     white-space: nowrap;
+     scroll-behavior: smooth;
+     width: 100vw;
+     height: 400px;
+   }
+   .container::-webkit-scrollbar
+   {
+ display: none;
+   }
+   .card {
+     display: inline-block;
+     width: 300px;
+     height: 350px;
+     background-color: white;
+     margin-right: 10px;
+     padding: 20px;
+     font-size: 14px;
+     line-height: 1.4;
+     transition: transform 0.3s ease;
+    
+  }
+   .card:hover {
+     transform: scale(1.1);
+   }
+   
+   .card:focus {
+     outline: none;
+   }
+ /* #c{
+     background-color: rgb(73, 73, 233);
+   }
+   .b{
+     width: 150px;
+     height: 200px;
+     border: 2px black;
+   } */
+   img{
+     width: 300px;
+     height: 350px;
+   }
