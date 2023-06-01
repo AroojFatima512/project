@@ -15,7 +15,7 @@
      position: absolute;
      z-index: -1;
  }
- .text{
+ /* .text{
      margin-top: 100px;
      margin-left: 400px;
      position: relative;
@@ -23,16 +23,30 @@
      font-size: 100px;
      display: flex;
      text-shadow: 2px 2px gray;
- }
+ } */
  .h1{
      margin-top: 200px;
-     margin-left: 500px;
+     margin-left: 400px;
      position: relative;
      color: white;
+     font-size: 50px;
      display: flex;
-     text-shadow:2px 2px gray;
+     text-shadow:2px 2px rgb(48, 47, 47);
+     font-family: 'Times New Roman', Times, serif;
+ }
+ /* .review{
+    background-color:  rgb(220, 220, 220);
+
+ } */
+ .text{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 60px;
+    text-shadow:3px 3px rgb(69, 67, 67);
+    font-family: Arial, Helvetica, sans-serif;
  }
  .form{
+    margin-top: 200px;
      margin-left: 100px;
      margin-right: 100px;
      background-color: rgb(157, 102, 157);
@@ -68,12 +82,12 @@
      width: 105px;
  }
  .container {
-     margin-top:100px;
      overflow-x: scroll;
      white-space: nowrap;
      scroll-behavior: smooth;
      width: 100vw;
      height: 400px;
+     /* background-color: rgb(220, 220, 220); */
    }
    .container::-webkit-scrollbar
    {
@@ -83,12 +97,11 @@
      display: inline-block;
      width: 300px;
      height: 350px;
-     background-color: white;
+     /* background-color: rgb(220, 220, 220); */
      margin-right: 10px;
-     padding: 20px;
      font-size: 14px;
      line-height: 1.4;
-     transition: transform 0.3s ease;
+     transition: 0.3s ease;
     
   }
    .card:hover {
@@ -110,3 +123,12 @@
      width: 300px;
      height: 350px;
    }
+   @keyframes mymove {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
